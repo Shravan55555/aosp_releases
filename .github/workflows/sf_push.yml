@@ -35,7 +35,7 @@ jobs:
           curl -L -O "${{ github.event.inputs.FILE_URL }}"
 
       - name: Set up SSH connection
-        uses: webfactory/ssh-agent@v0.9.0
+        uses: webfactory/ssh-agent@v0.5.3
         with:
           ssh-private-key: ${{ secrets.SSH_KEY }}
 

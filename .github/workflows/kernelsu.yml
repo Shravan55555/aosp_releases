@@ -23,7 +23,7 @@ jobs:
           sudo apt-get install -y zip unzip tar gzip bzip2 rar unrar cpio jq
 
       - name: Clone kernel source
-        run: git clone https://github.com/dogpoopy/android_kernel_xiaomi_vayu.git -b kernelsu --depth=1 .
+        run: git clone https://github.com/Shravan55555/android_kernel_realme_RMX1901_RUI2.git --depth=1 .
 
       - name: Start Compilation
         run: bash ksu.sh
